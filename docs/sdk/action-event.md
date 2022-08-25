@@ -32,7 +32,7 @@ function preventDefault(): void
 ```javascript
 window.addEventListener('lf-sdk-ready', async () => {
   window.sdk.on('action', (e) => {
-    e.suspense(async () => {
+    e.suspense(async (resolve, reject) => {
       e.preventDefault()
       resolve();
     });
