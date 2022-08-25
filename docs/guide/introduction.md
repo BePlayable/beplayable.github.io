@@ -14,6 +14,4 @@ the SDK contains Event communcation and by users current context, and only what 
 ## Asynchronous
 
 We have based our SDK on promises, you can read more about [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises), and how to consume data from asynchronous operations.
-
-## Releases
-Is actually not a thing, our product is constantly updated and the there is no versioning on the SDK. However, there is a [changelog](/CHANGELOG) for this documentation site! 
+ 
