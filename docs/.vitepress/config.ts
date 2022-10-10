@@ -1,12 +1,14 @@
 import { defineConfig } from "vitepress"
+import './theme/style.css'
 
 export default defineConfig({
     title: 'SDK',
-    titleTemplate: 'Leadfamly',
-    description: 'For developers working with the Leadfamly SDK.',
+    titleTemplate: 'Playable',
+    description: 'For developers working with the Playable SDK.',
   
     // Theme related configurations.
     themeConfig: {
+
       nav: nav(),
 
       sidebar: {
@@ -14,7 +16,7 @@ export default defineConfig({
         '/sdk/': sidebarSDK()
       },
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/leadfamly/sdk-docs' }
+        { icon: 'github', link: 'https://github.com/BePlayable/sdk-docs' }
       ],
       logo: '/logo.svg',
     }

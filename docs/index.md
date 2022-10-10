@@ -2,11 +2,11 @@
 layout: home
 
 title: SDK Documentation
-titleTemplate: Leadfamly
+titleTemplate: Playable
 
 hero:
-  name: Leadfamly SDK
-  text: Super powers for developers on Leadfamly platform.
+  name: Playable SDK
+  text: Super powers for developers on Playable platform.
   tagline: Get actions based on the current context in our platform.
   actions:
     - theme: brand
@@ -14,6 +14,6 @@ hero:
       link: /guide/introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com/Leadfamly/sdk-docs
+      link: https://github.com/BePlayable/sdk-docs
 
 ---

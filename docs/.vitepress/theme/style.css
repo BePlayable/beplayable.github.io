@@ -1,0 +1,53 @@
+/* .vitepress/theme/custom.css */
+:root {
+    --vp-c-brand: #f66a74;
+    --vp-c-brand-light: #f66a74;
+    --vp-c-brand-dark: #f66a74;
+    --vp-c-white-soft: #f7f7f7;
+    --vp-home-hero-name-color: #FBE8B6;
+    --vp-button-brand-border: #f66a74;
+    --vp-button-brand-bg:#f66a74; 
+    --vp-button-brand-hover-border: #6ec1e4;
+    --vp-button-brand-active-border:#6ec1e4;
+    --vp-button-brand-active-bg: #6ec1e4;
+    --vp-button-brand-hover-bg:#6ec1e4;
+    --vp-button-alt-border: #fff;
+    --vp-button-alt-bg: transparent;
+    --vp-button-alt-text:#fff;
+    --vp-button-alt-hover-text: #fff;
+    --vp-button-alt-hover-border: #fff;
+    --vp-button-alt-hover-bg: transparent;
+    
+  }
+
+  .VPContent.is-home {
+    background: linear-gradient(135deg,rgb(131,68,101) 0%,rgb(25,15,86) 68%);
+  }
+
+  .VPContent.is-home .tagline, .VPContent.is-home .text{
+    color: #fff;
+  }
+  
+
+  @media (min-width: 960px) {
+  .VPNav.no-sidebar {
+      -webkit-backdrop-filter: saturate(50%) blur(8px);
+      backdrop-filter: saturate(50%) blur(8px);
+      background: var(--vp-c-white-soft)!important;
+  }
+  .dark .VPNav.no-sidebar {
+      background: #170F52!important;
+  }
+  @supports not (backdrop-filter: saturate(50%) blur(8px)) {
+  .VPNav.no-sidebar {
+        background: var(--vp-c-white-soft)!important;
+  }
+.dark .VPNav.no-sidebar {
+        background: #170F52!important;
+    }
+    }
+}
+  .logo {
+    height: 75px!important;
+    padding: 8px;
+  }
