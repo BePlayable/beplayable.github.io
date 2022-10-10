@@ -2,4 +2,4 @@
 
 ## Documentation
 
-To check out docs, visit [leadfamly.github.io](https://playable.github.io).
+To check out docs, visit [leadfamly.github.io](https://beplayable.github.io).
