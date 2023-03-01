@@ -5,7 +5,7 @@ export default defineConfig({
     title: 'SDK',
     titleTemplate: 'Playable',
     description: 'For developers working with the Playable SDK.',
-  
+
     // Theme related configurations.
     themeConfig: {
 
@@ -16,7 +16,7 @@ export default defineConfig({
         '/sdk/': sidebarSDK()
       },
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/BePlayable/sdk-docs' }
+        { icon: 'github', link: 'https://github.com/BePlayable/beplayable.github.io' }
       ],
       logo: '/logo.svg',
     }
@@ -29,7 +29,7 @@ export default defineConfig({
     ]
   }
 
-  function sidebarGuide() { 
+  function sidebarGuide() {
     return [
       {
         text: 'Guide',
