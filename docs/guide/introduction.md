@@ -1,6 +1,6 @@
 # Guide to get started
 
-Thank you for getting into our documentation, we try to run this documentation site as close to a open source ideology as possible - meaning you are welcome to get into the [Github repository](https://github.com/leadfamly/sdk-docs) and create an issue with suggestions, bug repporting, or questions. 
+Thank you for getting into our documentation, we try to run this documentation site as close to a open source ideology as possible - meaning you are welcome to get into the [Github repository](https://github.com/BePlayable/beplayable.github.io) and create an issue with suggestions, bug repporting, or questions.
 
 ::: info Pre-requisites
 - Access to the leadfamly platform, if not, but interessested you can head over and book a [live demo](https://leadfamly.com/get-started/)
@@ -14,4 +14,3 @@ the SDK contains Event communcation and by users current context, and only what 
 ## Asynchronous
 
 We have based our SDK on promises, you can read more about [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises), and how to consume data from asynchronous operations.
- 

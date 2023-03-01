@@ -24,7 +24,7 @@ window.addEventListener('lf-sdk-ready', async () => {
 });
 ```
 
-**Note:** please see [promise example](https://github.com/Leadfamly/sdk-docs/blob/main/examples/promiseUsage.js) form more detailed usage.
+**Note:** please see [promise example](https://github.com/BePlayable/beplayable.github.io/blob/main/examples/promiseUsage.js) form more detailed usage.
 
 ## formFields Array
 A getter that returns the all the form fields in the registration form getting submitted.

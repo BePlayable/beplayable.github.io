@@ -17,5 +17,5 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:leadfamly/sdk-docs.git gh-pages
+git push -f git@github.com:BePlayable/beplayable.github.io.git gh-pages
 cd -
