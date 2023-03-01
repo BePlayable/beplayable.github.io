@@ -10,3 +10,4 @@ node_modules
 dist
 pnpm-global
 TODOs.md
+docs/.vitepress/cache
